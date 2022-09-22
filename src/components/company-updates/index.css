@@ -6,9 +6,8 @@
   color: #000000;
 }
 
-.blocks {
-  display: flex;
-  flex-direction: row;
+.carousel {
+  min-height: 160px;
 }
 
 .block {
@@ -18,12 +17,12 @@
 
   max-width: 150px;
   height: 150px;
+  min-height: 160px;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
 
   font-style: normal;
   font-weight: 600;

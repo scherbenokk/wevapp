@@ -8,6 +8,7 @@ function CompanyUpdates() {
     {
       slides: {
         perView: 2,
+        spacing: 10,
       },
       slideChanged() {
         console.log('slide changed')
@@ -18,7 +19,7 @@ function CompanyUpdates() {
   return (
     <div>
       <h2 className='header'>Company Updates</h2>
-      <div ref={sliderRef} className="keen-slider">
+      <div ref={sliderRef} className="keen-slider carousel">
         <div className='block keen-slider__slide'>
           <span>Shares Price</span>
           <span>201.3</span>
