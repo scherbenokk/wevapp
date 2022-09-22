@@ -1,0 +1,35 @@
+.header { 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+}
+
+.block {
+  background: linear-gradient(139.22deg, rgba(0, 26, 255, 0.58) 5.89%, rgba(251, 63, 255, 0.29) 92.31%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  width: 150px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
