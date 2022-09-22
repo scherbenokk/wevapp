@@ -14,11 +14,13 @@
 .menu {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
 .settings {
   height: 24px;
   width: 24px;
+  cursor: pointer;
 }
 
 .right-buttons {
@@ -34,4 +36,5 @@
   border-radius: 15px;
   padding: 5px 20px;
   color: #030084;
+  cursor: pointer;
 }
