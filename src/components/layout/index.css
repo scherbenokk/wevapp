@@ -4,3 +4,34 @@
   padding-right: 20px;
   padding-bottom: 20px;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+}
+
+.settings {
+  height: 24px;
+  width: 24px;
+}
+
+.right-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  margin-left: 10px;
+  outline: none;
+  background: none;
+  border: 1px solid #030084;
+  border-radius: 15px;
+  padding: 5px 20px;
+  color: #030084;
+}
