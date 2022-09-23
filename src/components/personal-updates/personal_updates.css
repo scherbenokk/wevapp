@@ -1,7 +1,3 @@
-.personal-stats {
-
-}
-
 .stats-flex {
     display: flex;
     flex-direction: row;
@@ -11,10 +7,16 @@
 
 .self-end {
     justify-self: end;
+    display: flex;
+    align-items: center;
 }
 
 .green-text {
-    color: green;
+    color: #00BF13;
+}
+
+.red-text {
+    color: #FF1F00;
 }
 
 .up-arrow {
@@ -22,4 +24,11 @@
     color: green;
     padding-left: 8px;
     padding-right: 3px;
+}
+
+.p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
 }

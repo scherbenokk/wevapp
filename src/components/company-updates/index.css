@@ -7,7 +7,7 @@
 }
 
 .carousel {
-  min-height: 160px;
+  min-height: 170px;
 }
 
 .block {
@@ -20,7 +20,7 @@
   min-height: 160px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 
@@ -31,4 +31,24 @@
   text-align: center;
 
   color: #FFFFFF;
+}
+
+.difference-block {
+  display: flex;
+  align-items: center;
+}
+
+.red-color {
+  -webkit-text-stroke: 0.5px #FFF; /* width and color */
+  color: #FF1F00;
+}
+
+.green-color {
+  -webkit-text-stroke: 0.5px #FFF;
+  color: #00BF13;
+}
+
+.stakeholder {
+  width: 80px;
+  border-radius: 50px;
 }
